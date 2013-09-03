@@ -9,3 +9,5 @@ class Random
         return 4;
     }
 }
+
+// Nod: http://xkcd.com/221/
