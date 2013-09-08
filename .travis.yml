@@ -8,3 +8,8 @@ php:
 before_script:
     - composer self-update
     - composer install
+
+notifications:
+    webhooks:
+        urls:
+            - http://bezdomni.net/travis.php
