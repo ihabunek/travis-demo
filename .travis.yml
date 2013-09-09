@@ -5,9 +5,15 @@ php:
     - 5.4
     - 5.5
 
+before_install:
+    - echo "Before install"
+
 before_script:
     - composer self-update
     - composer install
+
+after_script:
+    - echo "After script"
 
 notifications:
     webhooks:
