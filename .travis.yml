@@ -1,3 +1,7 @@
 language: php
 
-install: time composer install
+install: composer install
+
+cache:
+  directories:
+    - vendor
